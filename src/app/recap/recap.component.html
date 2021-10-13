@@ -1,0 +1,29 @@
+
+<h2>Compte client</h2>
+<div class="divider"></div>
+
+<div class="container mb-3">
+
+<p>Civilité : {{user.civility}} </p>
+<br>
+<p>Nom : {{user.lastname | uppercase}}</p>
+<br>
+<p>Prénom : {{user.firstname | titlecase}}</p>
+<br>
+<p>Adresse : {{user.adress | titlecase}}</p>
+<br>
+<p>Code Postal : {{user.cp}}</p>
+<br>
+<p>Ville : {{user.city | uppercase}}</p>
+<br>
+<p>Pays : {{user.country}} </p>
+<br>
+<p>Numéro de téléphone : {{user | phone }}</p>
+<br>
+<p>E-mail : {{user.email}}</p>
+<br>
+<p>Login : {{user.login}}</p>
+<br>
+<p>Mot de passe : {{user.password}}</p>
+
+</div>

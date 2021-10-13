@@ -1,0 +1,37 @@
+
+.form-floating
+{
+    margin: 10px;
+}
+
+.btn
+{
+    background-color: darkorange !important;
+    color: white !important;
+    margin: 10px auto !important;
+}
+
+.btn:hover
+{
+    background-color: orange !important;
+}
+
+.orange
+{
+    color: darkorange;
+}
+
+.verification
+{
+    color: darkorange !important;
+    font-size: 14px !important;
+    margin: 0 0 20px 20px !important;
+}
+
+.container
+{
+    background-color: #AF235F;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+}

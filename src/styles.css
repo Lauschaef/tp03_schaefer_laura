@@ -1,0 +1,30 @@
+body
+{
+    margin: 0 !important;
+}
+
+h2
+{
+    color: #9b1e5a;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.divider
+{
+    width:100px;
+    height: 2px;
+    background: darkorange;
+    margin: 0 auto;
+}
+
+p
+{
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+
+
